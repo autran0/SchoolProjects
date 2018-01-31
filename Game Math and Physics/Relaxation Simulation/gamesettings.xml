@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Ball and Spring Toy" />
+  <renderer width="1024" height="768" />
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\\background.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\\ballbearing.png"/>
+    <sprite name="woodcircle" file="Images\\wheel.png"/>
+    <sprite name="spring" file="Images\\spring.png"/>
+    <sprite name="stick" file="Images\\beam.png"/>
+  </sprites>
+
+  <!-- sound -->
+
+  <sounds level="0">
+    <sound file="Sounds\\thump.wav" instances="4"/>
+    <sound file="Sounds\\boing.wav" instances="4"/>
+    <sound file="Sounds\\ow.wav" instances="1"/>
+  </sounds>
+
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="0"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

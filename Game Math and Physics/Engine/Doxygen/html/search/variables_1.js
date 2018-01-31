@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['m_5fcspritemanager',['m_cSpriteManager',['../class_c_renderer.html#aaaed3ad31b33eb208586958407c78d9c',1,'CRenderer']]],
+  ['m_5fmatproj',['m_matProj',['../class_c_renderer.html#a64eb1a4018778f5b8be35ff463f53586',1,'CRenderer']]],
+  ['m_5fmatview',['m_matView',['../class_c_renderer.html#a1a5bb58815aa9e891060cbf2c871f660',1,'CRenderer']]],
+  ['m_5fmatworld',['m_matWorld',['../class_c_renderer.html#a3b201a1a6f21ca6ddd727a25f139fa6e',1,'CRenderer']]],
+  ['m_5fnheight',['m_nHeight',['../class_c3_d_sprite.html#abf73e8ab251c73c17646bc3701cb1ca0',1,'C3DSprite']]],
+  ['m_5fnscreenheight',['m_nScreenHeight',['../class_c_renderer.html#a73dcbe0ac4fbf758460993d2cb505568',1,'CRenderer']]],
+  ['m_5fnscreenwidth',['m_nScreenWidth',['../class_c_renderer.html#a2f7f12c7659e2d5c14b3bff41043aa25',1,'CRenderer']]],
+  ['m_5fnwidth',['m_nWidth',['../class_c3_d_sprite.html#a9c458c780651c6e8ab6f3e7fc6cac1a1',1,'C3DSprite']]],
+  ['m_5fpbackgroundtexture',['m_pBackgroundTexture',['../class_c_renderer.html#a75f9c9e90f6b8771bef4e623a1d4b78a',1,'CRenderer']]],
+  ['m_5fpbackgroundvb',['m_pBackgroundVB',['../class_c_renderer.html#aa705db66b8c83a044dadc1c0a8558a63',1,'CRenderer']]],
+  ['m_5fpblendstate',['m_pBlendState',['../class_c_renderer.html#acc658d1adeba957f1002b7e0416a7649',1,'CRenderer']]],
+  ['m_5fpconstantbuffer',['m_pConstantBuffer',['../class_c_renderer.html#afe83757f5f6d499794a4a6c44bf7a3eb',1,'CRenderer']]],
+  ['m_5fpdc2',['m_pDC2',['../class_c_renderer.html#ad0587daf7aefad23466866adf1e8159a',1,'CRenderer::m_pDC2()'],['../class_c3_d_sprite.html#a1bdcec85114daea6bde42c6eb57355e8',1,'C3DSprite::m_pDC2()']]],
+  ['m_5fpdev2',['m_pDev2',['../class_c_renderer.html#a4e1117de4e48ac61309cd6845c37d2cc',1,'CRenderer::m_pDev2()'],['../class_c3_d_sprite.html#a677ffa9797ef9ce052b01d4e25417f8a',1,'C3DSprite::m_pDev2()']]],
+  ['m_5fpdsv',['m_pDSV',['../class_c_renderer.html#aac56b663f5a9e3d0b04270ed5f8b0c87',1,'CRenderer']]],
+  ['m_5fprasterizerstate',['m_pRasterizerState',['../class_c_renderer.html#a2e486f3f3df3fddff329d561cb32ddf5',1,'CRenderer']]],
+  ['m_5fprtv',['m_pRTV',['../class_c_renderer.html#a3ba88fbbdfafbcfb9fc33745120c8059',1,'CRenderer']]],
+  ['m_5fpscreentext',['m_pScreenText',['../class_c_renderer.html#a793c766b39265bd717ec1d6d770f1274',1,'CRenderer']]],
+  ['m_5fpshader',['m_pShader',['../class_c_renderer.html#a878f29f136447eb81f1f44bdbb26bdb5',1,'CRenderer']]],
+  ['m_5fpswapchain2',['m_pSwapChain2',['../class_c_renderer.html#ae889e4df6018d8282942cbd0430457ef',1,'CRenderer']]],
+  ['m_5fptexture',['m_pTexture',['../class_c3_d_sprite.html#ae24f0cb3c64f6e2d7a53f4ac0feced38',1,'C3DSprite']]],
+  ['m_5fpvertexbuffer',['m_pVertexBuffer',['../class_c3_d_sprite.html#a6163bbeb572b6ce668cfb555777c9991',1,'C3DSprite']]],
+  ['m_5fpvertexbufferdata',['m_pVertexBufferData',['../class_c3_d_sprite.html#a32485caa088071ac2b78868f0b611eb0',1,'C3DSprite']]],
+  ['m_5frasterizerdesc',['m_rasterizerDesc',['../class_c_renderer.html#a1c2acf08f82f4c5b7ba76bdd1d6a767a',1,'CRenderer']]]
+];

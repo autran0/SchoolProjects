@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="RenderWorld.cpp" />
+    <ClCompile Include="ObjectWorld.cpp" />
+    <ClCompile Include="Pulley.cpp">
+      <Filter>Demo Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="RenderWorld.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GameDefines.h" />
+    <ClInclude Include="ObjectWorld.h" />
+    <ClInclude Include="LineObject.h" />
+    <ClInclude Include="Pulley.h">
+      <Filter>Demo Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Demo Classes">
+      <UniqueIdentifier>{0a3c874a-a47c-4c25-8d69-5ee99d0e90a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\gamesettings.xml" />
+  </ItemGroup>
+</Project>

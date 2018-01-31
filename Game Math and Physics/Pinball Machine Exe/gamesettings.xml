@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Collision Math Demo" />
+  <renderer width="1024" height="768"/>
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.png"/>
+    <image name="text" src="Images\Text.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="arrow" file="Images\vector.png"/>
+
+    <sprite name="blueball" file="Images\blueballbearing.png"/>
+    <sprite name="bluecircle" file="Images\bluecircle.png"/>
+    <sprite name="bluereticle" file="Images\bluereticle.png"/>
+    <sprite name="bluedot" file="Images\bluedot.png"/>
+
+    <sprite name="redball" file="Images\redballbearing.png"/>
+    <sprite name="redcircle" file="Images\redcircle.png"/>
+    <sprite name="redreticle" file="Images\redreticle.png"/>
+    <sprite name="reddot" file="Images\reddot.png"/>
+
+    <sprite name="yellowball" file="Images\yellowballbearing.png"/>
+    <sprite name="yellowcircle" file="Images\yellowcircle.png"/>
+    <sprite name="yellowreticle" file="Images\yellowreticle.png"/>
+    <sprite name="yellowdot" file="Images\yellowdot.png"/>
+
+    <sprite name="grayball" file="Images\ballbearing.png"/>
+    <sprite name="graycircle" file="Images\circle.png"/>
+    <sprite name="grayreticle" file="Images\grayreticle.png"/>
+    <sprite name="graydot" file="Images\graydot.png"/>
+
+    <sprite name="greenball" file="Images\greenballbearing.png"/>
+    <sprite name="greencircle" file="Images\greencircle.png"/>
+    <sprite name="greenreticle" file="Images\greenreticle.png"/>
+    <sprite name="greendot" file="Images\greendot.png"/>
+
+    <sprite name="cyanball" file="Images\cyanballbearing.png"/>
+    <sprite name="cyancircle" file="Images\cyancircle.png"/>
+    <sprite name="cyanreticle" file="Images\cyanreticle.png"/>
+    <sprite name="cyandot" file="Images\cyandot.png"/>
+
+    <sprite name="magentaball" file="Images\magentaballbearing.png"/>
+    <sprite name="magentacircle" file="Images\magentacircle.png"/>
+    <sprite name="magentareticle" file="Images\magentareticle.png"/>
+    <sprite name="magentadot" file="Images\magentadot.png"/>
+
+    <sprite name="orangeball" file="Images\orangeballbearing.png"/>
+    <sprite name="orangecircle" file="Images\orangecircle.png"/>
+    <sprite name="orangereticle" file="Images\orangereticle.png"/>
+    <sprite name="orangedot" file="Images\orangedot.png"/>
+
+    <sprite name="purpleball" file="Images\purpleballbearing.png"/>
+    <sprite name="purplecircle" file="Images\purplecircle.png"/>
+    <sprite name="purplereticle" file="Images\purplereticle.png"/>
+    <sprite name="purpledot" file="Images\purpledot.png"/>
+
+    <sprite name="bigredreticle" file="Images\bigredreticle.png"/>
+  </sprites>
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\1.wav" instances="8"/>
+    <sound file="Sounds\BEEP_A4S.wav" instances="8"/>
+    <sound file="Sounds\BEEP_F4S.wav" instances="8"/>
+    <sound file="Sounds\blaster.wav" instances="8"/>
+    <sound file="Sounds\ballclick.wav" instances="8"/>
+    <sound file="Sounds\bfire.wav" instances="8"/>
+  </sounds>
+  
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

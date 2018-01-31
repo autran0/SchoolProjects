@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectWorld.cpp" />
+    <ClCompile Include="RenderWorld.cpp" />
+    <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="MovingCircle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSeg.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameDefines.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectWorld.h" />
+    <ClInclude Include="RenderWorld.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sndlist.h" />
+    <ClInclude Include="Shape.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingCircle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSeg.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\gamesettings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{5f13c450-eea1-4489-82aa-62bbfdb7e48b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Game.ico" />
+  </ItemGroup>
+</Project>

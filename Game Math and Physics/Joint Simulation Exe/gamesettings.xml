@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Programming Assignment 6" />
+  <renderer width="1024" height="768" />
+
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.png" />
+    <image name="text" src="Images\Text.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="line" file="Images\line.tif"/>
+    <sprite name="bucket" file="Images\\bucket.tif"/>
+    <sprite name="safe" file="Images\safe.tif"/>
+    <sprite name="elephant" file="Images\elephant.tif"/>
+    <sprite name="pulley" file="Images\pulleywheel.tif"/>
+    <sprite name="small pulley" file="Images\pulleywheel2.tif"/>
+  </sprites>
+  
+  <!-- debugger settings -->
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+</settings>

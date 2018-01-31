@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Box2D Cannon Game" />
+  <renderer width="1024" height="768" />
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.png" />
+    <image name="text" src="Images\Text.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\ball.png"/>
+    <sprite name="crate" file="Images\crate.tif"/>
+    <sprite name="cannonbarrel" file="Images\barrel.png"/>
+    <sprite name="cannonmount" file="Images\mount.png"/>
+    <sprite name="wheel" file="Images\wheel.png"/>
+    <sprite name="tempguage" file="Images\temperature.png"/>
+    <sprite name="tempneedle" file="Images\tempneedle.png"/>
+    <sprite name="tempmaxneedle" file="Images\tempmaxneedle.png"/>
+    <sprite name="clockface" file="Images\clockface.png"/>
+    <sprite name="clockneedle" file="Images\clockneedle.png"/>
+    <sprite name="pirate" file="Images\pirate.png"/>
+  </sprites>
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\thump.wav" instances="8"/>
+    <sound file="Sounds\thump2.wav" instances="8"/>
+    <sound file="Sounds\cannonfire.wav" instances="4"/>
+    <sound file="Sounds\cannonsplode.wav" instances="1"/>
+    <sound file="Sounds\ticktock.wav" instances="1"/>
+    <sound file="Sounds\yay.wav" instances="1"/>
+    <sound file="Sounds\unh.wav" instances="1"/>
+    <sound file="Sounds\clang.wav" instances="8"/>
+    <sound file="Sounds\r.wav" instances="1"/>
+  </sounds>
+
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

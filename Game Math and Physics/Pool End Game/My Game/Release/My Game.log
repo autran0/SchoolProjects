@@ -1,0 +1,10 @@
+﻿  Object.cpp
+  ObjectWorld.cpp
+ObjectWorld.cpp(91): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+ObjectWorld.cpp(91): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+  RenderWorld.cpp
+  MyGame.cpp
+  Generating code
+  Finished generating code
+  My Game.vcxproj -> C:\Users\tran_\Documents\CSCE 4215 My Repository\3. Pool End Game\Release\8ball.exe
+  My Game.vcxproj -> C:\Users\tran_\Documents\CSCE 4215 My Repository\3. Pool End Game\Release\8ball.pdb (Full PDB)

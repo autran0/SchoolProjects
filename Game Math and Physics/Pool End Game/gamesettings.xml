@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Pool End Game" />
+  <renderer width="1024" height="531"/>
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\table.png"/>
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="arrow" file="Images\vector.png"/>
+    <sprite name="cueball" file="Images\cueball.png"/>
+    <sprite name="eightball" file="Images\8ball.png"/>
+    <sprite name="circle" file="Images\circle.png"/>
+    <sprite name="youwin" file="Images\youwin.png"/>
+    <sprite name="youlose" file="Images\youlose.png"/>
+    <sprite name="welcome" file="Images\welcome.png"/>
+  </sprites>
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\cue.wav" instances="1"/>
+    <sound file="Sounds\ballclick.wav" instances="4"/>
+    <sound file="Sounds\thump.wav" instances="4"/>
+    <sound file="Sounds\pocket.wav" instances="2"/>
+    <sound file="Sounds\win.wav" instances="1"/>
+    <sound file="Sounds\lose.wav" instances="1"/>
+  </sounds>
+  
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

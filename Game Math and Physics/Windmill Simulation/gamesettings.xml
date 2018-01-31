@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Getting Started with Box2D" />
+  <renderer width="1024" height="768" />
+  
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.bmp" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="tire" file="Images\tire.tif"/>
+    <sprite name="crate" file="Images\crate.tif"/>
+    <sprite name="windmillbase" file="Images\windmillbase.tif"/>
+    <sprite name="windmillblades" file="Images\windmillblades.tif"/>
+  </sprites>
+
+  <!-- sound -->
+
+  <sounds>
+  </sounds>
+
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>
